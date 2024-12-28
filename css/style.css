@@ -1,0 +1,198 @@
+*{
+    font-family: "Inter", serif;
+}
+
+
+.container img{
+    height: 62px;
+    
+}
+
+.btn_outer{
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+
+}
+
+.whatsapp{
+    border: 2px solid #27AE60;
+    color: #27AE60;
+    padding: 10px 18px;
+    font-size: 16px;
+   
+}
+.whatsapp:hover{
+    color: white;
+    background-color: rgb(11, 128, 0);
+}
+
+.whatsapp i{
+ font-size: 20px;
+
+}
+
+.call{
+    color: white;
+    padding: 10px 18px;
+    background: linear-gradient(to right,rgb(98, 25, 118) , rgb(111, 28, 111));
+}
+ .call:hover{
+    border: 2px solid pulm;
+   
+    color: white;
+} 
+
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: bold;
+    
+    
+}
+.bannerContent h1 span{
+    color:#912089;
+}
+
+.bannerContent p{
+    font-size: 22px;
+}
+
+.bannerContent ul{
+    list-style:none;
+}
+
+.bannerContent ul li{
+    font-size: 22px;
+}
+.bannerContent ul li i{
+    color: #871787;
+
+}
+.banner_btn button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.banner_btn button:first-child{
+    background: linear-gradient(to right,rgb(98, 25, 118) , rgb(111, 28, 111));
+    border: 2px solid white;
+    color: white;
+
+}
+
+.banner_form{
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.banner_form h2{
+ 
+    font-weight: bold;
+    color: #871787;
+}
+.banner_form label{
+    color: #80217ad7;
+    font-weight: bold;
+    
+}
+
+.banner_form input{
+    border:2px solid #7951794b;
+}
+.banner_form button{
+
+    background: linear-gradient(to right,rgb(98, 25, 118) , rgb(111, 28, 111));
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px 0px;
+    border: none;
+    color: white;
+}
+
+.banner_form button:hover{
+    color: white;
+    background: linear-gradient(to right,rgb(98, 25, 118) , rgb(111, 28, 111));
+}
+
+.counter_section{
+   
+    background: linear-gradient(to right,rgb(98, 25, 118) , rgb(111, 28, 111));
+}
+.counter_section h2{
+    font-size: 30px;
+    font-weight: 700 ;
+    color:white;
+    text-align: center;
+    
+   
+}
+
+.counter_section p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:576px){
+   .btn_outer{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    padding: px 0px;
+   }
+   .whatsapp,.call{
+    padding: 7px 15px;
+    font-size: 14px;
+   }
+
+   .bannerContent h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+   }
+   .bannerContent br{
+    display: none;
+   }
+   .bannerContent p,.bannerContent ul li i{
+    font-size: 14px;
+   }
+   .banner_btn button{
+    width: 100%;
+   }
+
+   .banner_btn {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .banner_form{
+    padding: 20px;
+
+}
+
+
+
+}
+
+
+
+
